@@ -5,11 +5,20 @@
 }
 
 body{
-    background: rgb(10,41,86);
-    background: linear-gradient(135deg, rgba(10,41,86,1) 42%, rgba(4,12,24,1) 100%);
+    background: rgb(4,12,24);
+    background: linear-gradient(189deg, rgba(4,12,24,1) 36%, rgba(4,12,24,1) 63%, rgba(0,40,83,1) 77%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.future, .big-mask, .register, .whole-lot{
+    background: rgb(4,12,24);
+    background: linear-gradient(140deg, rgba(4,12,24,1) 1%, rgba(4,12,24,1) 72%);
+}
+
+.card-first{
+    margin-bottom: 150px;
 }
 
 .wiG-bgd{
@@ -53,6 +62,10 @@ a{
     font-size: 45px;
 }
 
+.navbar-toggler{
+    background-color: #1e4875 !important;
+}
+
 .hero p, .third-one p, .future-last small, .mask-right p{
     color: #81AFDD;
 }
@@ -77,9 +90,14 @@ a{
     border-radius: 0 5px 5px 0;
     margin-left: -5px;
 }
-.form input:placeholder-shown{
+/* .form input:placeholder-shown{
     text-indent: 10px;
     color: #fff;
+} */
+
+.form input::placeholder {
+    font-size: 12px;
+    color: #81AFDD;
 }
 
 .grp-img img{
@@ -158,6 +176,7 @@ a{
 
 .mask-right{
     margin-top: 240px;
+    margin-bottom: 130px;
 }
 .mask-right h6{
     color: #71E5Ff;
@@ -168,7 +187,7 @@ a{
 
 }
 .register{
-    margin-top: 60px !important;
+    /* margin-top: 60px !important; */
 }
 
 .regs button{
@@ -227,7 +246,7 @@ a{
 
 .footer-row{
     background-color: #05264a;
-    margin-top: 70px !important;
+    /* margin-top: 70px !important; */
 }
 
 .footer-img img{
@@ -247,8 +266,18 @@ a{
 
 @media screen and (max-width: 700px) {
     .hero h1{
-        font-size: 40px;
+        font-size: 30px;
+        margin-top: -20px;
     }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+    .footer-row p{
+        font-size: 12px;
+    }
+
 
     br{
         display: none;
@@ -257,24 +286,33 @@ a{
     .hero button{
         margin-left: 3px;
         border-radius: 5px;
+        width: 100%;
+        margin-top: 10px;
     }
 
     .grp-img small{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .mask-right{
         margin-top: 50px;
     }
 
-    .mask-right h2{
-        font-size: 30px;
-    }
-
     .card-first{
         margin-bottom: 20px;
     }
 
+    .first-one p, .mask-right p{
+        font-size: 11px;
+    }
+
+    .second-one p{
+        text-align: center;
+    }
+
+    .second-one h3, .future-one h3, .mask-right h2{
+        font-size: 21px;
+    }
 
     .card-second{
         margin-bottom: 20px;
@@ -282,7 +320,7 @@ a{
     }
 
     .a-lot h1, .footer-head h1{
-        font-size: 35px;
+        font-size: 25px;
     }
 
 
@@ -290,7 +328,9 @@ a{
         padding: 13px 0;
     }
 
-    .future-one h3{
-        font-size: 30px;
+    .partner img{
+        width: 10%;
+        /* margin-left: -100px; */
     }
+
 }
