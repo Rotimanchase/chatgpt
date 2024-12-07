@@ -1,0 +1,296 @@
+@import url(https://fonts.google.com/share?selection.family=Manrope:wght@200..800);
+
+*{
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    background: rgb(10,41,86);
+    background: linear-gradient(135deg, rgba(10,41,86,1) 42%, rgba(4,12,24,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wiG-bgd{
+    background: rgb(39,95,153);
+    background: linear-gradient(140deg, rgba(39,95,153,1) 1%, rgba(19,55,93,1) 9%, rgba(19,52,87,1) 87%, rgba(27,117,207,1) 95%);
+    margin-top: 80px;
+}
+
+.register-color{
+    background: rgb(174,103,250);
+    background: linear-gradient(132deg, rgba(174,103,250,1) 25%, rgba(244,152,103,1) 65%);
+    border-radius: 5px;
+}
+
+.first-one p{
+    color: #81AFDD;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+html{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a{
+    color: #fff !important;
+}
+.hero-left{
+    margin-top: 85px;
+}
+.hero h1{
+    background: rgb(174,103,250);
+    background: linear-gradient(132deg, rgba(174,103,250,1) 25%, rgba(244,152,103,1) 65%);
+    font-weight: bold;
+    color: transparent; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+.hero p, .third-one p, .future-last small, .mask-right p{
+    color: #81AFDD;
+}
+.form input{
+    padding: 13px 0;
+    background-color: #194876;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-div a{
+    background-color: #FF4820;
+    padding: 8px 25px;
+}
+
+.hero button{
+    color: #fff;
+    background-color: #FF4820;
+    padding: 13px 30px 13px 30px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+}
+.form input:placeholder-shown{
+    text-indent: 10px;
+    color: #fff;
+}
+
+.grp-img img{
+    width: 26%;
+    /* height: 20px; */
+}
+
+.grp-img small{
+    font-size: 11px;
+}
+
+.obj-img img{
+    width: 100%;
+}
+.partner img{
+    width: 6%;
+    /* margin-left: -100px; */
+}
+
+.first-one p{
+    margin-top: 15px;
+}
+
+.first-one h4,  .third-one h5{
+    font-weight: bold;
+}
+
+.third-one p{
+    font-size: small;
+}
+
+.second-one h3, .future-one h3, .mask-right h2, .a-lot h1, .footer-head h1{
+    background: rgb(174,103,250);
+    background: linear-gradient(132deg, rgba(174,103,250,1) 25%, rgba(244,152,103,1) 65%);
+    font-weight: bold;
+    color: transparent; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.future{
+    margin-top: 120px !important;
+}
+
+.future-one h3{
+    font-size: 32px;
+}
+.mask-right h2{
+    font-size: 34px;
+}
+.a-lot{
+    margin: 100px 0 50px 0;
+}
+
+.footer-head{
+    margin: 100px 0 140px 0 !important;
+}
+
+.second-one p, .future-one p, .last-p p{
+    color: #FF8A71;
+}
+
+.future-second p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.future-last small{
+    font-size: 10px;
+    /* line-height: 1; */
+}
+
+.mask img{
+    width: 100%;
+}
+
+.mask-right{
+    margin-top: 240px;
+}
+.mask-right h6{
+    color: #71E5Ff;
+}
+
+.regs h5{
+    font-weight: bold;
+
+}
+.register{
+    margin-top: 60px !important;
+}
+
+.regs button{
+    border: 1px solid #333;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.card-body{
+    background-color: #042C54;
+}
+.card-first img{
+    width: 100%;
+}
+
+.card img{
+    background-color: #000000;
+    
+}
+
+.card-first{
+    height: 550px;
+    width: 100%;
+    border: none !important;
+    position: relative;
+}
+
+.last-arti {
+    position: absolute;
+    top: 93%;
+}
+
+.last-artis {
+    position: absolute;
+    top: 87%;
+}
+
+.card-body small{
+    font-size: 12px;
+}
+
+.card-body h6{
+    position: absolute;
+    bottom: 20%;
+}
+
+.card-second{
+    height: 263px;
+    width: 100%;
+    border: none !important;
+    position: relative;
+}
+
+.footer-row{
+    background-color: #05264a;
+    margin-top: 70px !important;
+}
+
+.footer-img img{
+    width: 50%;
+}
+.footer-img{
+    margin-bottom: 80px !important;
+}
+
+.footer-head button{
+    background-color: inherit;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .hero h1{
+        font-size: 40px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .hero button{
+        margin-left: 3px;
+        border-radius: 5px;
+    }
+
+    .grp-img small{
+        font-size: 10px;
+    }
+    
+    .mask-right{
+        margin-top: 50px;
+    }
+
+    .mask-right h2{
+        font-size: 30px;
+    }
+
+    .card-first{
+        margin-bottom: 20px;
+    }
+
+
+    .card-second{
+        margin-bottom: 20px;
+        height: 290px;
+    }
+
+    .a-lot h1, .footer-head h1{
+        font-size: 35px;
+    }
+
+
+    .form input{
+        padding: 13px 0;
+    }
+
+    .future-one h3{
+        font-size: 30px;
+    }
+}
